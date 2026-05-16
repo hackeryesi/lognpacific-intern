@@ -21,6 +21,15 @@ AlwaysInstallElevated =
     LinkedIn        : inkedin.com/in/yesi-gebreselassie
     GitHub          : github.com/hackeryesi
      Website	   : thethirdeyehackers.com
+     .TESTED ON
+    Date(s) Tested  : 2026-05-16
+    Tested By       : Yesi Gebreselassie
+    Systems Tested  : Windows Enterprise  Build 29H2
+    PowerShell Ver. : 5.1.17763.6189
+
+.USAGE
+
+    PS C:\> .\WN11-CC-000315.ps1 
 #>
 
 
