@@ -12,8 +12,6 @@ WN11-CC-000315
 Registry Path:
 HKLM:\SOFTWARE\Policies\Microsoft\Windows\Installer
 
-Registry Value:
-AlwaysInstallElevated = 
 
 .NOTES
     Author          : Yesi Gebreselassie
