@@ -13,11 +13,14 @@ Registry Path:
 HKLM:\SOFTWARE\Policies\Microsoft\Windows\Installer
 
 Registry Value:
-AlwaysInstallElevated = 0
+AlwaysInstallElevated = 
 
 .NOTES
-Author: Yesi Gebreselassie
-Run as Administrator
+    Author          : Yesi Gebreselassie
+    Run as Administrator
+    LinkedIn        : inkedin.com/in/yesi-gebreselassie
+    GitHub          : github.com/hackeryesi
+     Website	   : thethirdeyehackers.com
 #>
 
 
