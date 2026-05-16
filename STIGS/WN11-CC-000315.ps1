@@ -20,6 +20,7 @@ Author: Yesi Gebreselassie
 Run as Administrator
 #>
 
+
 # Define registry path and value
 $RegistryPath = "HKLM:\SOFTWARE\Policies\Microsoft\Windows\Installer"
 $ValueName = "AlwaysInstallElevated"
