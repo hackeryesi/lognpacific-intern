@@ -5,6 +5,8 @@ Disables the Windows Installer "AlwaysInstallElevated" setting.
 .DESCRIPTION
 This script remediates the Windows 11 STIG finding requiring
 AlwaysInstallElevated to be disabled to prevent privilege escalation.
+Disabling AlwaysInstallElevated prevents non-admin users from installing
+MSI packages with elevated privileges, reducing privilege escalation risk
 
 STIG ID:
 WN11-CC-000315
