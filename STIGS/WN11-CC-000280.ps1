@@ -7,7 +7,14 @@
 # Value Type : REG_DWORD
 # Value Data : 1
 # =====================================================================
-
+.NOTES
+    Author          : Yesi Gebreselassie
+    LinkedIn        : linkedin.com/in/yesi-gebreselassie
+    GitHub          : github.com/hackeryesi
+     Website	   : thethirdeyehackers.com
+    Date Created    : 2026-05-16
+    Last Modified   : 2026-05-16
+    
 # Define registry path and value
 $RegPath  = "HKLM:\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services"
 $ValueName = "fPromptForPassword"
