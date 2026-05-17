@@ -11,9 +11,21 @@
     Author          : Yesi Gebreselassie
     LinkedIn        : linkedin.com/in/yesi-gebreselassie
     GitHub          : github.com/hackeryesi
-     Website	   : thethirdeyehackers.com
+     Website	    : thethirdeyehackers.com
     Date Created    : 2026-05-16
     Last Modified   : 2026-05-16
+
+     STIG-ID         : WN11-CC-000280
+
+.TESTED ON
+    Date(s) Tested  : 2026-05-16
+    Tested By       : Yesi Gebreselassie
+    Systems Tested  : Windows Enterprise  Build 29H2
+    PowerShell Ver. : 5.1.17763.6189
+
+.USAGE
+
+    PS C:\> .\ WN11-CC-000280.ps1 
     
 # Define registry path and value
 $RegPath  = "HKLM:\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services"
