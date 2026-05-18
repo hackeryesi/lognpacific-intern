@@ -17,6 +17,15 @@ IE11 must not be installed or enabled.
  Date Created    : 2026-05-17
  Last Modified   : 2026-05-17
  Run as Administrator
+ .TESTED ON
+    Date(s) Tested  : 2026-05-17
+    Tested By       : Yesi Gebreselassie
+    Systems Tested  : Windows Enterprise  Build 29H2
+    PowerShell Ver. : 5.1.17763.6189
+
+.USAGE
+
+    PS C:\> .\ WN11-CC-000391.ps1 
 #>
 
 try {
