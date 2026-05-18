@@ -1,6 +1,8 @@
 <#
 .SYNOPSIS
 Configures strong Kerberos encryption types for STIG compliance.
+Please test thoroughly in a non-production environment before deploying widely.
+Make sure to run as Administrator or with appropriate privileges.
 
 .DESCRIPTION
 This script remediates the STIG finding requiring
@@ -15,7 +17,26 @@ SupportedEncryptionTypes = 2147483640
 STIG ID: WN11-SO-000190
 
 .NOTES
-Author: Yesi Gebreselassie
+    Author          : Yesi Gebreselassie
+    LinkedIn        : inkedin.com/in/yesi-gebreselassie
+    GitHub          : github.com/hackeryesi
+     Website	   : thethirdeyehackers.com
+    Date Created    : 2026-05-18
+    Last Modified   : 2026-05-18
+    Version         : 1.0
+    .TESTED ON
+    Date(s) Tested  : 2026-05-18
+    Tested By       : Yesi Gebreselassie
+    Systems Tested  : Windows Enterprise  Build 29H2
+    PowerShell Ver. : 5.1.17763.6189
+
+    
+.USAGE
+    Put any usage instructions here.
+    Example syntax:
+    PS C:\> .\WN11-SO-000190.ps1 
+
+    
 Run as Administrator
 #>
 
