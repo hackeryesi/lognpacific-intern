@@ -1,6 +1,9 @@
 <#
 .SYNOPSIS
 Disables the Windows Installer "AlwaysInstallElevated" setting.
+Please test thoroughly in a non-production environment before deploying widely.
+Make sure to run as Administrator or with appropriate privileges.
+
 
 .DESCRIPTION
 This script remediates the Windows 11 STIG finding requiring
