@@ -1,6 +1,7 @@
 <#
 .SYNOPSIS
 Disables Internet Explorer 11 on Windows 11.
+“Disabling Internet Explorer 11 reduces attack surface by removing an outdated and unsupported browser component.”
 
 .DESCRIPTION
 This script remediates the STIG finding requiring
@@ -26,6 +27,25 @@ IE11 must not be installed or enabled.
 .USAGE
 
     PS C:\> .\ WN11-CC-000391.ps1 
+
+What This Script Does It disables the Windows optional feature:
+Internet-Explorer-Optional-amd64
+
+Which removes:
+IE11 functionality
+
+ Why This Matters
+
+IE11:
+
+No longer supported
+Uses outdated security architecture
+Can expose systems to:
+Memory corruption
+ActiveX abuse
+Legacy web exploits
+
+
 #>
 
 try {
