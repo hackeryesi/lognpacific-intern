@@ -1,6 +1,9 @@
 <#
 .SYNOPSIS
 Configures the required AC power setting for STIG compliance.
+Please test thoroughly in a non-production environment before deploying widely.
+Make sure to run as Administrator or with appropriate privileges.
+
 
 .DESCRIPTION
 This script remediates the STIG finding requiring
