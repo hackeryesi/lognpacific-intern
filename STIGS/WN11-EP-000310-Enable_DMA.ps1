@@ -35,7 +35,7 @@ STIG ID: WN11-EP-000310
     Put any usage instructions here.
     Example syntax:
     PS C:\> .\ WN11-EP-000310.ps1 
-Run as Administrator
+
 #>
 
 # Define registry settings
