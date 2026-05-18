@@ -13,7 +13,7 @@ HKLM:\SOFTWARE\Policies\Microsoft\FVE
 Registry Value:
 MinimumPIN = 6
 
-.NOTES
+
 .NOTES
     Author          : Yesi Gebreselassie
     LinkedIn        : linkedin.com/in/yesi-gebreselassie
@@ -34,6 +34,17 @@ STIG ID: WN11-00-000032
 .USAGE
 
     PS C:\> .\WN11-00-000032.ps1 
+
+    Why This Matters
+
+BitLocker startup PINs protect:
+Pre-boot authentication
+
+Weak PINs:
+Easier to brute force
+Easier for attackers to guess
+
+“This STIG enforces stronger BitLocker startup PINs to improve pre-boot authentication security and reduce brute-force risk.”
 #>
 
 # Define registry settings
