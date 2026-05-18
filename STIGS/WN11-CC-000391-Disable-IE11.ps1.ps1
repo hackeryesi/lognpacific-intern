@@ -2,6 +2,9 @@
 .SYNOPSIS
 Disables Internet Explorer 11 on Windows 11.
 “Disabling Internet Explorer 11 reduces attack surface by removing an outdated and unsupported browser component.”
+Please test thoroughly in a non-production environment before deploying widely.
+Make sure to run as Administrator or with appropriate privileges.
+
 
 .DESCRIPTION
 This script remediates the STIG finding requiring
