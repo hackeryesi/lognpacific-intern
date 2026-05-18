@@ -4,7 +4,6 @@ Disables HTTP Printing for STIG compliance.
 Please test thoroughly in a non-production environment before deploying widely.
 Make sure to run as Administrator or with appropriate privileges.
 
-
 .DESCRIPTION
 This script remediates the STIG finding requiring
 DisableHTTPPrinting to be set to 1.
@@ -19,16 +18,13 @@ DisableHTTPPrinting = 1
     Author          : Yesi Gebreselassie
     LinkedIn        : inkedin.com/in/yesi-gebreselassie
     GitHub          : github.com/hackeryesi
-     Website	   : thethirdeyehackers.com
+     Website	    : thethirdeyehackers.com
     Date Created    : 2026-05-18
     Last Modified   : 2026-05-18
     Version         : 1.0
 
-
-    STIG ID: Please test thoroughly in a non-production environment before deploying widely.
-    Make sure to run as Administrator or with appropriate privileges.
+STIG ID: WN11-CC-000110
  
-
 .TESTED ON
     Date(s) Tested  : 2026-05-18
     Tested By       : Yesi Gebreselassie
