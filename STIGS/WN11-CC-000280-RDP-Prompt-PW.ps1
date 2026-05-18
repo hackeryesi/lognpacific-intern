@@ -7,6 +7,9 @@
 # Value Type : REG_DWORD
 # Value Data : 1
 # =====================================================================
+Please test thoroughly in a non-production environment before deploying widely.
+Make sure to run as Administrator or with appropriate privileges.
+
 .NOTES
     Author          : Yesi Gebreselassie
     LinkedIn        : linkedin.com/in/yesi-gebreselassie
