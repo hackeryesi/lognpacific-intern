@@ -1,6 +1,9 @@
 <#
 .SYNOPSIS
 Configures the minimum BitLocker startup PIN length.
+Please test thoroughly in a non-production environment before deploying widely.
+Make sure to run as Administrator or with appropriate privileges.
+
 
 .DESCRIPTION
 This script remediates the STIG finding requiring
